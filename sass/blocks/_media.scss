@@ -1,0 +1,40 @@
+@media screen and (max-width: 640px) {
+    .header__official{
+        display: none;
+    }
+    .promo__wrapper {
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .benefits__icons {
+        width: 70%;
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .benefits__icons {
+        width: 40%;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .carousel__inner img {
+        width: 50%;
+        height: 50%;
+
+    }
+}
+
+
+@media screen and (max-width: 640px) {
+    .catalog__tabs {
+        flex-wrap: wrap; 
+    }
+}
